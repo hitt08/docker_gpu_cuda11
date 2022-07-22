@@ -38,7 +38,7 @@ COPY requirements_basic.txt /tmp
 COPY requirements_extended.txt /tmp
 COPY neuralcoref /root/miniconda/lib/python3.8/dist-packages/neuralcoref
 RUN pip3 install --no-cache-dir -r /tmp/requirements_basic.txt && \
-  	conda install pytorch cudatoolkit=11.3 -c pytorch && \
+  	conda install -y pytorch cudatoolkit=11.3 -c pytorch && \
   	pip3 install --no-cache-dir -r /tmp/requirements_extended.txt && \
 	giveme5w1h-corenlp install && \
 	cd /root/miniconda/lib/python3.8/dist-packages/neuralcoref && pip3 install -r requirements.txt && pip3 install -e .
