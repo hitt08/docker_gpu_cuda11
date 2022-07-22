@@ -4,16 +4,8 @@ python-docx
 numpy
 scikit-learn == 0.22.2.post1
 statsmodels
-torch
-tensorflow
-transformers
-sentence-transformers
-spacy==2.3.7
-benepar
 matplotlib
 networkx
-giveme5w1h
-geopy==1.13.0
 beautifulsoup4
 gensim
-cupy-cuda112
+scrapbook
