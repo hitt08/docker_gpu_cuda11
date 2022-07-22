@@ -1,0 +1,9 @@
+tensorflow
+transformers
+sentence-transformers
+spacy==2.3.7
+benepar
+giveme5w1h
+geopy==1.13.0
+cupy-cuda112
+recommenders
